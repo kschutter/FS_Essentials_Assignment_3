@@ -1,0 +1,37 @@
+/* We can set the default text color to white because only one element
+    uses black text color */
+* {
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+div {
+    background-color: lightblue;
+    border-left: 7px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+    background-color: pink;
+}
+
+p {
+    font-size: 25px;
+    background-color: black;
+}
+
+/* Only one intro exists in the doc so we can use an ID and override the other p{} */
+#intro {
+    background-color: greenyellow;
+    color: black;
+}
